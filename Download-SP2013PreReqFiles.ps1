@@ -1,17 +1,4 @@
-﻿#***************************************************************************************
-# Written by Craig Lussier - http://craiglussier.com
-#
-# This script downloads SharePoint 2013 Prerequisites
-#   
-# -Only run this script on Windows Server 2012 (RTM, either Standard or Datacenter)
-# -Do not run this script on a Windows Server 2008 R2 SP1 Server!
-# ---These are the Prerequisites for Windows Server 2012
-# -Run this script as a local server Administrator
-# -Run PowerShell as Administrator
-#
-# Don't forget to: Set-ExecutionPolicy RemoteSigned
-# If you have not done so already within you Windows Server 2012 server
-#****************************************************************************************
+﻿
 param([string] $SharePoint2013Path = $(Read-Host -Prompt "Please enter the directory path to where you wish to save the SharePoint 2013 Prerequisite files.")) 
  
 # Import Required Modules
