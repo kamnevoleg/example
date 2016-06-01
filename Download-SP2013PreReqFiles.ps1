@@ -1,7 +1,7 @@
 ﻿
 param([string] $SharePoint2013Path = $(Read-Host -Prompt "Please enter the directory path to where you wish to save the SharePoint 2013 Prerequisite files.")) 
  
-# Import Required Modules
+
 Import-Module BitsTransfer 
 
 
@@ -54,7 +54,8 @@ function DownLoadPreRequisites()
             break 
         } 
     } 
-    Write-Host " - Done downloading Prerequisites required for SharePoint 2013" 
+    
+    Write-Host " - Done downloading!"	
      
     return $ReturnCode 
 } 
